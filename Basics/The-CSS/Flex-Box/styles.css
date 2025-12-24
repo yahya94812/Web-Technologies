@@ -1,0 +1,39 @@
+.parent{
+    background-color: bisque;
+    border-radius: 5px;
+    border: solid black 2px;
+    height: 95vh; /*vh view height*/
+    width :95vw; /*vw view width*/
+    margin :auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+    /* Main Axis : Defined by flex-direction.
+    Cross Axis : Perpendicular to the main axis.*/
+
+    /* flex :1 {set the child to the first}, flex :2 {set the child elem after it} */
+    /* flex-direction: row;
+    justify-content: center;on the main axis
+    align-items: center;on cross axis */
+
+    flex-direction: column;
+    /* flex-direction: column-reverse   ; */
+    justify-content: center;/*on the main axis*/
+    align-items: center;/*on the cross axis*/ /*it is for single line (row, col) use if there is one line */
+    /* align-content: center; it is for all content (of multiple lines(row or col), use if you have multiple lines */ 
+    /* there is no justify-items in css flexbox*/
+    gap: 20px; /* for both horizontal and vertical*/
+    /* row-gap: 30px; */
+
+}
+
+.child{
+    background-color: rgb(64, 38, 7);
+    border-radius: 5px;
+    border: solid black 2px;
+    height: 25%;
+    width: 25%;
+    margin: 1em;/*compared to width*/
+}
