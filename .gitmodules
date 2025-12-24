@@ -7,3 +7,6 @@
 [submodule "Nextjs"]
 	path = Nextjs
 	url = https://github.com/yahya94812/Nextjs.git
+[submodule "Javascript"]
+	path = Javascript
+	url = https://github.com/yahya94812/Javascript.git
