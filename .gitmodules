@@ -4,3 +4,6 @@
 [submodule "APIs"]
 	path = APIs
 	url = https://github.com/yahya94812/APIs.git
+[submodule "Nextjs"]
+	path = Nextjs
+	url = https://github.com/yahya94812/Nextjs.git
