@@ -1,3 +1,6 @@
 [submodule "React"]
 	path = React
 	url = https://github.com/yahya94812/React.git
+[submodule "APIs"]
+	path = APIs
+	url = https://github.com/yahya94812/APIs.git
