@@ -10,3 +10,6 @@
 [submodule "Javascript"]
 	path = Javascript
 	url = https://github.com/yahya94812/Javascript.git
+[submodule "Web-UI"]
+	path = Web-UI
+	url = https://github.com/yahya94812/Web-UI.git
